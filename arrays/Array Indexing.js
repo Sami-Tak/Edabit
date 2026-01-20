@@ -41,11 +41,12 @@
 // console.log(valueAt([1,2, 3, 4, 5, 6], 8.0 / 2));
 // console.log(valueAt([1,2, 3, 4], 6.535355314 / 2));
 
-// function valueAt(arr, i) {
-//     const index = Math.floor(i);
-//     return index >= 0 && index < arr.length ? arr[index] : undefined;
-// }
+function valueAt(arr, i) {
+    const index = Math.floor(i);
+    return index >= 0 && index < arr.length ? arr[index] : undefined;
+}
 
-// console.log(valueAt([1,2, 3, 4, 5, 6], 10 / 2));
-// console.log(valueAt([1,2, 3, 4, 5, 6], 8.0 / 2));
-// console.log(valueAt([1,2, 3, 4], 6.535355314 / 2));
+console.log(valueAt([1,2, 3, 4, 5, 6], 10 / 2));
+console.log(valueAt([1,2, 3, 4, 5, 6], 8.0 / 2));
+console.log(valueAt([1,2, 3, 4], 6.535355314 / 2));
+console.log(valueAt([1,2, 3, 4], 6 / 2));

@@ -55,10 +55,11 @@
 // console.log(sumArray([-1, 0, 1]));
 // console.log(sumArray([0, 4, 8, 12]));
 
-// function sumArray(arr) {
-//     return arr.map(x => x).reduce((a, b) => a + b, 0);
-// }
+function sumArray(arr) {
+    return arr.map(x => x).reduce((a, b) => a + b, 0);
+}
 
-// console.log(sumArray([1, 2, 3, 4, 5]));
-// console.log(sumArray([-1, 0, 1]));
-// console.log(sumArray([0, 4, 8, 12]));
+console.log(sumArray([1, 2, 3, 4, 5]));
+console.log(sumArray([-1, 0, 1]));
+console.log(sumArray([0, 4, 8, 12]));
+console.log(sumArray([0, 4, 8,]));
